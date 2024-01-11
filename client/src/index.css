@@ -1,0 +1,23 @@
+
+html, body {
+  margin: auto;
+  font-family: 'sans-serif';
+  width: 100%;
+}
+
+input{
+  padding: 7px;
+  border: 1px solid #1B1B1B;
+  border-radius: 5px;
+}
+
+input:focus{
+  border-color: #1B1B1B;
+  outline: 0;
+  background-color: #f4f4f4
+}
+
+.pointer{
+  cursor: pointer;
+}
+
