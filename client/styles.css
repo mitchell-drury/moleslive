@@ -1,0 +1,103 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+#gameControls{
+  position:fixed;
+  top:45%;
+  left:calc(50% - 16px);
+  z-index:10;
+  border:1px solid black;
+}
+#stopGame{
+  display:none;
+  height:30px;
+  width:30px;
+  background-color: red;
+  border:1px solid black;
+}
+#stopGame:hover{
+  background-color: #d60000;
+}
+#startGame{
+  height:30px;
+  width:30px;
+  background-color: #00FF10;
+  border:1px solid black;
+}
+#startGame:hover{
+  background-color:#03ea12;
+}
+#startGame:hover{
+  cursor:pointer;
+}
+#stopGame:hover{
+  cursor:pointer;
+}
+#board{
+  background: url(images/grass.jpg);
+  background-size: cover;
+  background-position:center;
+  position:fixed;
+  border:1px solid black;
+  cursor:url('images/Webp.net-resizeimage.png'),auto;
+}
+#board:hover{
+  cursor:url('images/Webp.net-resizeimage.png') 10 5, auto;
+}
+.row{
+  height:calc(20%);
+}
+
+.box{
+  height:calc(100% - 20px);
+  width: calc(20% - 20px);
+  display:inline-block;
+  margin:0;
+  padding:10px;
+}
+
+.mole{
+  background: url(images/Optimized-mole.png);
+  background-size:cover;
+  background-position:center;
+}
+
+#message{
+  display:none;
+  position: fixed;
+  top:20%;
+  left:calc(10% - 24px);
+  width:80%;
+  border:2px solid black;
+  background-color:white;
+  padding:20px;
+  text-align:center;
+  z-index: 100;
+}
+#close{
+  position: absolute;
+  top:0;
+  right: 0;
+  background-image:url(images/xButton.png);
+  background-size:cover;
+  height: 30px;
+  width:30px;
+}
+#close:hover{
+  cursor:pointer;
+}
+
+#angles{
+  position: fixed;
+  top:30px;
+  left: 45%;
+  z-index:100;
+}
+#relative{
+  position: fixed;
+  top:120px;
+  left: 45%;
+  z-index:100;
+}
+
