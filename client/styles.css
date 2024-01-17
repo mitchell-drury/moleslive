@@ -37,24 +37,26 @@ html, body{
 #board{
   background: url(images/grass.jpg);
   background-size: cover;
-  background-position:center;
-  position:fixed;
-  border:1px solid black;
-  cursor:url('images/Webp.net-resizeimage.png'),auto;
+  background-position: center;
+  position: fixed;
+  border: 1px solid black;
+  cursor: url('images/Webp.net-resizeimage.png'),auto;
 }
 #board:hover{
-  cursor:url('images/Webp.net-resizeimage.png') 10 5, auto;
+  cursor: url('images/Webp.net-resizeimage.png') 10 5, auto;
 }
 .row{
-  height:calc(20%);
+  display: flex;
+  height: calc(20%);
 }
 
 .box{
   height:calc(100% - 20px);
   width: calc(20% - 20px);
-  display:inline-block;
-  margin:0;
-  padding:10px;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  flex-grow: 1;
 }
 
 .mole{
